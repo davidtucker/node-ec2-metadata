@@ -1,13 +1,13 @@
 {
   "name": "node-ec2-metadata",
   "preferGlobal": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "David Tucker <david.tucker@universalmind.com>",
   "description" : "Module for fetching AWS EC2 metadata for an instance",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/davidtucker/node-shutdown-manager.git"
+    "url": "git://github.com/davidtucker/node-ec2-metadata.git"
   },
   "main": "lib/index.js",
   "directories": {
