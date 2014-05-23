@@ -1,0 +1,32 @@
+{
+  "name": "node-ec2-metadata",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "David Tucker <david.tucker@universalmind.com>",
+  "description" : "Module for fetching AWS EC2 metadata for an instance",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidtucker/node-shutdown-manager.git"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.0"
+  }
+}
