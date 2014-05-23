@@ -1,6 +1,6 @@
 # node-ec2-metadata
 
-This module wraps the functionality around fetching metadata for running EC2 instances.
+This module wraps the functionality around fetching metadata for running EC2 instances.  For more information on the data types that AWS provides for EC2 instances see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html">Instance Metadata and User Data</a>.
 
 ## Install
 
@@ -10,7 +10,7 @@ npm install node-ec2-metadata
 
 ## API
 
-This module exposes a method ```getMetadataForInstance``` which returns a promise.  You can see an example below for fetching the instance ID of a running EC2 instance.
+This module exposes a method ```getMetadataForInstance``` which returns a promise.  You can see an example below for fetching the instance ID of a running EC2 instance.  To see the data types that you can call, review <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html">Instance Metadata and User Data</a>.
 
 ```javascript
 var metadata = require('node-ec2-metadata');
