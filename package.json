@@ -1,7 +1,7 @@
 {
   "name": "node-ec2-metadata",
   "preferGlobal": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "David Tucker <david.tucker@universalmind.com>",
   "description" : "Module for fetching AWS EC2 metadata for an instance",
   "license": "MIT",
