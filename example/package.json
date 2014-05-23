@@ -1,0 +1,16 @@
+{
+  "name": "node-ec2-metadata-example",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "David Tucker <david.tucker@universalmind.com>",
+  "description" : "Example for fetching AWS EC2 metadata for an instance",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "node-ec2-metadata" : "~0.0.2",
+    "q": "~1.0.1"
+  }
+}
