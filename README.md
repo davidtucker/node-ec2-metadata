@@ -61,6 +61,18 @@ Q.all([
 });
 ```
 
+The ```isEC2``` method detects whether the code is running on EC2. It returns a promise, where the result will be a boolean. The initial call may take up to 500ms on a non-EC2 host, but the result is cached so subsequent calls provide a result immediately.
+
+```javascript
+var metadata = require('node-ec2-metadata');
+
+metadata.isEC2()
+.then(function(onEC2) {
+    console.log("Running on EC2? " + onEC2);
+});
+```
+
+
 ## License
 
 The MIT License (MIT)
