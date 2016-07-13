@@ -1,6 +1,13 @@
 var metadata = require('node-ec2-metadata');
 var Q = require('q');
 
+// Check whether we're running on EC2
+metadata.isEC2()
+.then(function (result) {
+    console.log("On EC2?", result);
+})
+
+// Get a set of properties
 Q.all([
     metadata.getMetadataForInstance('ami-id'),
     metadata.getMetadataForInstance('hostname'),
