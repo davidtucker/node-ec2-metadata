@@ -23,7 +23,7 @@ exports.replaceValuesForType = {
 
     testIncorrectNumberOfArguments: function(test) {
         test.throws(function() {
-            metadata.replaceValuesForType('block-device-mapping/ebsN') 
+            metadata.replaceValuesForType('block-device-mapping/ebsN');
         }, Error, 'Incorrect Number of Arguments for Type');
         test.done();
     }
@@ -53,7 +53,7 @@ exports.urlForType = {
 
     testInvalidType: function(test) {
         test.throws(function() {
-            metadata.urlForType('invalid/metadata') 
+            metadata.urlForType('invalid/metadata');
         }, Error, 'Not a valid EC2 metadata type');
         test.done();
     }

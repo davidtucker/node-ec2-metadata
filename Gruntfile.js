@@ -7,7 +7,10 @@ module.exports = function(grunt) {
       tests: ['test/*_test.js']
     },
     jshint: {
-      all: ['Gruntfile.js', 'server.js', 'lib/**/*.js', 'test/**/*.js']
+      all: ['Gruntfile.js', 'server.js', 'lib/**/*.js', 'test/**/*.js'],
+      options: {
+        reporterOutput: ""
+      }
     }
   });
 
