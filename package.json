@@ -1,9 +1,9 @@
 {
   "name": "node-ec2-metadata",
   "preferGlobal": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "David Tucker <david.tucker@universalmind.com>",
-  "description" : "Module for fetching AWS EC2 metadata for an instance",
+  "description": "Module for fetching AWS EC2 metadata for an instance",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "q": "~1.0.1",
-    "lodash": "~2.4.1"
+    "lodash": "~4.17.5"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
