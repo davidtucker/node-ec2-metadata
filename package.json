@@ -1,7 +1,7 @@
 {
   "name": "node-ec2-metadata",
   "preferGlobal": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "David Tucker <david.tucker@universalmind.com>",
   "description": "Module for fetching AWS EC2 metadata for an instance",
   "license": "MIT",
@@ -24,9 +24,9 @@
     "lodash": "~4.17.5"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.9",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.0"
+    "grunt": "~1.0.3",
+    "grunt-cli": "~1.3.2",
+    "grunt-contrib-jshint": "~2.0.0",
+    "grunt-contrib-nodeunit": "~2.0.0"
   }
 }
